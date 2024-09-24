@@ -11,7 +11,7 @@ The goal of the project was to develop a Retrieval-Augmented Generation (RAG) mo
 
 ## Data
 
-In this project, the dataset used can be downloaded from this [Kaggle repository](https://www.kaggle.com/datasets/talesgomes27/sherleck-books). It contains four main Sherlock Holmes novels and a collection of short stories across five additional books. For this project, the focus was placed on the following four novels:
+In this project, the dataset used can be downloaded from this [Kaggle repository](https://www.kaggle.com/datasets/talesgomes27/sherleck-books) which contains the four main Sherlock Holmes novels and a collection of short stories across five additional books. For this project, the focus was placed on the following four novels:
 
 - *A Study in Scarlet*
 - *The Sign of Four*
@@ -28,7 +28,7 @@ The pipeline for the RAG project includes the following steps:
    The Sherlock Holmes books are loaded into the system as text, ready for processing and embedding.
 
 2. **Text Normalization and Preprocessing**  
-   We preprocess the text to remove noise, normalize the data (e.g., lowercasing, punctuation removal), and tokenize it into useful units for further embedding.
+   We preprocess the text to remove noise (Guthenberg project info), normalize the data and tokenize it into useful units for further embedding.
 
 3. **Embeddings and Similarity Search**  
    Various sentence embedding models were tested to determine which best captured semantic relationships in the dataset. The tested models include:
